@@ -29,6 +29,8 @@ echo "<script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POS Sederhana</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/main.js" defer></script>
 </head>
 
 <body>
@@ -46,7 +48,8 @@ echo "<script>
             <option value="admin">Admin</option>
         </select><br><br>
 
-        <button type="submit">Daftar</button>
+        <button type="submit" style="width: 100%;">Daftar</button>
+        <p style="margin-top: 16px; font-size: 13px; text-align: center;">Sudah punya akun? <a href="login.php">Login</a></p>
     </form>
 </body>
 
